@@ -148,7 +148,6 @@ public partial class QuanLyBanQuanAoContext : DbContext
             entity.Property(e => e.MaLoaiSp)
                 .ValueGeneratedNever()
                 .HasColumnName("MaLoaiSP");
-            entity.Property(e => e.MoTa).HasMaxLength(255);
             entity.Property(e => e.TenLoaiSp)
                 .HasMaxLength(50)
                 .HasColumnName("TenLoaiSP");
