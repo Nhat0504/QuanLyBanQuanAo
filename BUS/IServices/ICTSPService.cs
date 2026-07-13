@@ -14,5 +14,6 @@ namespace BUS.IServices
         bool Delete(ChiTietSanPham obj);
         List<ChiTietSanPham> GetAll();
         List<ChiTietSanPham> GetById(string input);
+        
     }
 }
